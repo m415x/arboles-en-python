@@ -14,14 +14,23 @@
 - Árboles B/B+ (para sistemas de almacenamiento)
 - Árboles de segmentación (aplicaciones avanzadas)
 
-## 3. Implementación en Python
+## 3. Representación con Listas Anidadas
 
-- Representación de nodos
-- Operaciones básicas (inserción, búsqueda, eliminación)
-- Recorridos (in-order, pre-order, post-order)
-- Balanceo en árboles AVL
+**Ventajas**:
 
-## 4. Análisis de Complejidad
+- Conceptualmente simple
+- No requiere conocimientos de POO
+- Adecuado para introducción a árboles
 
-- Comparación de operaciones en diferentes tipos de árboles
-- Casos óptimos y peores casos
+**Limitaciones**:
+
+- Dificultad para árboles grandes
+- Operaciones de modificación complejas
+
+## 4. Operaciones Básicas
+
+| Función               | Complejidad | Descripción            |
+| --------------------- | ----------- | ---------------------- |
+| `crear_nodo()`        | O(1)        | Crea nodo hoja         |
+| `insertar_izq()`      | O(1)        | Inserta hijo izquierdo |
+| `recorrer_preorden()` | O(n)        | Visita todos los nodos |

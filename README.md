@@ -22,18 +22,21 @@ Implementación de diferentes tipos de árboles en Python con casos prácticos d
     │   ├── marco_teorico.md           # Marco teórico en formato Markdown
     │   └── presentacion.pdf           # Versión PDF del informe final
     ├── src/                           # Código fuente
-    │   ├── arbol_binario.py           # Implementación de árbol binario
-    │   ├── arbol_avl.py               # Implementación de árbol AVL
-    │   ├── ejemplos_uso.py            # Casos prácticos de uso
+    │   ├── arbol_listas.py            # Implementación con listas anidadas (core)
+    │   ├── casos_uso.py               # Ejemplos aplicados
+    │   ├── operaciones_basicas.py     # Funciones requeridas en el video
     │   └── tests/                     # Pruebas unitarias
     │       └── test.py
     ├── requirements.txt               # Dependencias del proyecto
     └── README.md                      # Documentación principal
 ```
 
-## Requisitos
+## Cómo Ejecutar
 
-- Python 3.11+
-- Dependencias: `pip install -r requirements.txt`
+### Instalar dependencias
 
-## Cómo ejecutar
+`pip install -r requirements.txt`
+
+### Ejecutar casos de uso
+
+`python src/casos_uso.py`
