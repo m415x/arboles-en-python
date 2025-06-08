@@ -38,6 +38,7 @@
 | `recorrer_inorden()`        | O(n)        | Visita todos los nodos (izq -> raíz -> der)       |
 | `recorrer_postorden()`      | O(n)        | Visita todos los nodos (izq -> der -> raíz)       |
 | `visualizar_arbol()`        | O(n)        | Visualiza un árbol binario de manera estructurada |
+| `altura_arbol()`            | O(n)        | Calcula la altura máxima del árbol                |
 | `peso_arbol()`              | O(n)        | Cuenta todos los nodos del árbol                  |
 
 ## 5. Complejidad Computacional
