@@ -9,7 +9,7 @@ Implementación de diferentes tipos de árboles en Python con casos prácticos d
 ## Integrantes
 
 - [Lahoz, Cristian](mailto:lahozcristian@gmail.com) - (Comision N8)
-- [Ramallo, gerónimo](mailto:ramallogeronimo00@gmail.com) - (Comision N8)
+- [Ramallo, Gerónimo](mailto:ramallogeronimo00@gmail.com) - (Comision N8)
 
 ## Objetivos
 - Implementar las operaciones básicas de árboles binarios usando listas anidadas
@@ -45,3 +45,5 @@ Implementación de diferentes tipos de árboles en Python con casos prácticos d
 - Dependencias: `pip install -r requirements.txt`
 
 ## Cómo ejecutar
+
+## Enlace (aca)
