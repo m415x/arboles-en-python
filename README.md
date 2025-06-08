@@ -8,8 +8,16 @@ Implementación de diferentes tipos de árboles en Python con casos prácticos d
 
 ## Integrantes
 
-- [Lahoz, Cristian](mailto:lahozcristian@gmail.com)
-- [Ramallo, gerónimo](mailto:ramallogeronimo00@gmail.com)
+- [Lahoz, Cristian](mailto:lahozcristian@gmail.com) - (Comision N8)
+- [Ramallo, gerónimo](mailto:ramallogeronimo00@gmail.com) - (Comision N8)
+
+## Objetivos
+- Implementar las operaciones básicas de árboles binarios usando listas anidadas
+- Desarrollar funciones para visualización y recorrido
+- Analizar la eficiencia de esta representación
+- Demostrar aplicaciones prácticas de esta estructura
+
+
 
 ## Estructura del Proyecto
 
