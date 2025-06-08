@@ -29,8 +29,23 @@
 
 ## 4. Operaciones Básicas
 
-| Función               | Complejidad | Descripción            |
-| --------------------- | ----------- | ---------------------- |
-| `crear_nodo()`        | O(1)        | Crea nodo hoja         |
-| `insertar_izq()`      | O(1)        | Inserta hijo izquierdo |
-| `recorrer_preorden()` | O(n)        | Visita todos los nodos |
+| Función                     | Complejidad | Descripción                                       |
+| --------------------------- | ----------- | ------------------------------------------------- |
+| `crear_nodo_raiz()`         | O(1)        | Crea nodo hoja                                    |
+| `insertar_hijo_izquierdo()` | O(1)        | Inserta hijo izquierdo                            |
+| `insertar_hijo_derecho()`   | O(1)        | Inserta hijo derecho                              |
+| `recorrer_preorden()`       | O(n)        | Visita todos los nodos (raíz → izq → der)         |
+| `recorrer_inorden()`        | O(n)        | Visita todos los nodos (izq -> raíz -> der)       |
+| `recorrer_postorden()`      | O(n)        | Visita todos los nodos (izq -> der -> raíz)       |
+| `visualizar_arbol()`        | O(n)        | Visualiza un árbol binario de manera estructurada |
+| `peso_arbol()`              | O(n)        | Cuenta todos los nodos del árbol                  |
+
+## 5. Complejidad Computacional
+
+| Operación     | Complejidad | Descripción |
+| ------------- | ----------- | ----------- |
+| Creación      | O(1)        | Constante   |
+| Inserción     | O(1)        | Constante   |
+| Recorrido     | O(n)        | Lineal      |
+| Búsqueda      | O(n)        | Lineal      |
+| Visualización | O(n)        | Lineal      |
