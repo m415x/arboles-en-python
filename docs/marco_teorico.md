@@ -35,8 +35,8 @@
 | `insertar_hijo_izquierdo()` | O(1)        | Inserta hijo izquierdo                            |
 | `insertar_hijo_derecho()`   | O(1)        | Inserta hijo derecho                              |
 | `recorrer_preorden()`       | O(n)        | Visita todos los nodos (raíz → izq → der)         |
-| `recorrer_inorden()`        | O(n)        | Visita todos los nodos (izq -> raíz -> der)       |
-| `recorrer_postorden()`      | O(n)        | Visita todos los nodos (izq -> der -> raíz)       |
+| `recorrer_inorden()`        | O(n)        | Visita todos los nodos (izq → raíz → der)         |
+| `recorrer_postorden()`      | O(n)        | Visita todos los nodos (izq → der → raíz)         |
 | `visualizar_arbol()`        | O(n)        | Visualiza un árbol binario de manera estructurada |
 | `altura_arbol()`            | O(n)        | Calcula la altura máxima del árbol                |
 | `peso_arbol()`              | O(n)        | Cuenta todos los nodos del árbol                  |
